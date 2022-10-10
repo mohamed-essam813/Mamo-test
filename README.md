@@ -22,67 +22,68 @@ yarn start
 
 ## File Structure
 
-📦src
-┣ 📂assets
-┃ ┗ 📂images
-┃ ┃ ┣ 📜.DS_Store
-┃ ┃ ┗ 📜mamo-pay-logo-business-white.svg
-┣ 📂components
-┃ ┣ 📂breadCrumbs
-┃ ┃ ┣ 📜BreadCrumbs.tsx
-┃ ┃ ┗ 📜index.ts
-┃ ┣ 📂button
-┃ ┃ ┣ 📜Button.tsx
-┃ ┃ ┗ 📜index.ts
-┃ ┣ 📂layout
-┃ ┃ ┣ 📜Layout.tsx
-┃ ┃ ┣ 📜Layout.types.ts
-┃ ┃ ┗ 📜index.ts
-┃ ┣ 📂table
-┃ ┃ ┣ 📜PaginationAction.tsx
-┃ ┃ ┣ 📜Table.tsx
-┃ ┃ ┣ 📜index.ts
-┃ ┃ ┗ 📜labelDisplayedRows.tsx
-┃ ┗ 📜.DS_Store
-┣ 📂data
-┃ ┗ 📜invoices.ts
-┣ 📂theme
-┃ ┣ 📜Colors.ts
-┃ ┣ 📜Theme.ts
-┃ ┗ 📜index.ts
-┣ 📂views
-┃ ┣ 📂accountSettings
-┃ ┃ ┣ 📜AccountSettings.tsx
-┃ ┃ ┗ 📜index.ts
-┃ ┣ 📂invoices
-┃ ┃ ┣ 📂createInvoiceDialog
-┃ ┃ ┃ ┣ 📜CreateInvoiceDialog.tsx
-┃ ┃ ┃ ┗ 📜index.ts
-┃ ┃ ┣ 📂invoiceCard
-┃ ┃ ┃ ┣ 📜InvoiceCard.tsx
-┃ ┃ ┃ ┗ 📜index.ts
-┃ ┃ ┣ 📜Invoices.tsx
-┃ ┃ ┗ 📜index.ts
-┃ ┣ 📂overview
-┃ ┃ ┣ 📜Overview.tsx
-┃ ┃ ┗ 📜index.ts
-┃ ┣ 📂payments
-┃ ┃ ┣ 📜Payments.tsx
-┃ ┃ ┗ 📜index.ts
-┃ ┣ 📂paymentsLinks
-┃ ┃ ┣ 📜PaymentsLinks.tsx
-┃ ┃ ┗ 📜index.ts
-┃ ┣ 📂settlements
-┃ ┃ ┣ 📜Settlements.tsx
-┃ ┃ ┗ 📜index.ts
-┃ ┣ 📜.DS_Store
-┃ ┗ 📜index.ts
-┣ 📜.DS_Store
-┣ 📜App.tsx
-┣ 📜Routes.ts
-┣ 📜index.tsx
-┣ 📜react-app-env.d.ts
-┣ 📜reportWebVitals.ts
+
+📦src  
+┣ 📂assets  
+┃ ┗ 📂images  
+┃ ┃ ┣ 📜.DS_Store  
+┃ ┃ ┗ 📜mamo-pay-logo-business-white.svg  
+┣ 📂components  
+┃ ┣ 📂breadCrumbs  
+┃ ┃ ┣ 📜BreadCrumbs.tsx  
+┃ ┃ ┗ 📜index.ts  
+┃ ┣ 📂button  
+┃ ┃ ┣ 📜Button.tsx  
+┃ ┃ ┗ 📜index.ts  
+┃ ┣ 📂layout  
+┃ ┃ ┣ 📜Layout.tsx  
+┃ ┃ ┣ 📜Layout.types.ts  
+┃ ┃ ┗ 📜index.ts  
+┃ ┣ 📂table  
+┃ ┃ ┣ 📜PaginationAction.tsx  
+┃ ┃ ┣ 📜Table.tsx  
+┃ ┃ ┣ 📜index.ts  
+┃ ┃ ┗ 📜labelDisplayedRows.tsx  
+┃ ┗ 📜.DS_Store  
+┣ 📂data  
+┃ ┗ 📜invoices.ts  
+┣ 📂theme  
+┃ ┣ 📜Colors.ts  
+┃ ┣ 📜Theme.ts  
+┃ ┗ 📜index.ts  
+┣ 📂views  
+┃ ┣ 📂accountSettings  
+┃ ┃ ┣ 📜AccountSettings.tsx  
+┃ ┃ ┗ 📜index.ts  
+┃ ┣ 📂invoices  
+┃ ┃ ┣ 📂createInvoiceDialog  
+┃ ┃ ┃ ┣ 📜CreateInvoiceDialog.tsx  
+┃ ┃ ┃ ┗ 📜index.ts  
+┃ ┃ ┣ 📂invoiceCard  
+┃ ┃ ┃ ┣ 📜InvoiceCard.tsx  
+┃ ┃ ┃ ┗ 📜index.ts  
+┃ ┃ ┣ 📜Invoices.tsx  
+┃ ┃ ┗ 📜index.ts  
+┃ ┣ 📂overview  
+┃ ┃ ┣ 📜Overview.tsx  
+┃ ┃ ┗ 📜index.ts  
+┃ ┣ 📂payments  
+┃ ┃ ┣ 📜Payments.tsx  
+┃ ┃ ┗ 📜index.ts  
+┃ ┣ 📂paymentsLinks  
+┃ ┃ ┣ 📜PaymentsLinks.tsx  
+┃ ┃ ┗ 📜index.ts  
+┃ ┣ 📂settlements  
+┃ ┃ ┣ 📜Settlements.tsx  
+┃ ┃ ┗ 📜index.ts  
+┃ ┣ 📜.DS_Store  
+┃ ┗ 📜index.ts  
+┣ 📜.DS_Store  
+┣ 📜App.tsx  
+┣ 📜Routes.ts  
+┣ 📜index.tsx  
+┣ 📜react-app-env.d.ts  
+┣ 📜reportWebVitals.ts  
 ┗ 📜setupTests.ts
 
 - `assets`
@@ -106,11 +107,6 @@ This app is built with React.js, Material-UI, Css-in-js.
 - View list of invoices with ability to open form to add or create new invoice
 
 ## Theming
-
-📦theme
-┣ 📜Colors.ts
-┣ 📜Theme.ts
-┗ 📜index.ts
 
 Allows for keeping consistency and easy customization for all design aspects of the app.
 
