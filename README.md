@@ -126,13 +126,12 @@ Customization here includes palette, typography, mixins, animation keyframes/tra
 <img width="722" alt="Screen Shot 2022-10-10 at 5 24 35 PM" src="https://user-images.githubusercontent.com/29519234/194902425-39d246b6-d19b-49af-9efc-e6d65c4b81e0.png">
 <img width="473" alt="Screen Shot 2022-10-10 at 5 26 25 PM" src="https://user-images.githubusercontent.com/29519234/194902428-ae4ed6ea-53d0-467a-bcbb-6b98e653f348.png">
 
--------------------
+---
 
 <img width="476" alt="Screen Shot 2022-10-10 at 5 27 00 PM" src="https://user-images.githubusercontent.com/29519234/194903196-52eaaa50-172e-4516-b46e-944b932c27fc.png">
 <img width="796" alt="Screen Shot 2022-10-10 at 5 28 05 PM" src="https://user-images.githubusercontent.com/29519234/194903203-dc40b6e0-d074-4c15-b42a-e168f628138b.png">
 
-------------------
+---
 
 <img width="463" alt="Screen Shot 2022-10-10 at 5 27 22 PM" src="https://user-images.githubusercontent.com/29519234/194903277-b9a1399a-3f99-4725-b807-8d10fd6f5ebd.png">
 <img width="788" alt="Screen Shot 2022-10-10 at 5 27 53 PM" src="https://user-images.githubusercontent.com/29519234/194903290-dd2a07d4-f6c9-4b58-84a2-338c6d04fde4.png">
-
