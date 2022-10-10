@@ -69,12 +69,21 @@ export function CreateInvoiceDialog(props: DialogProps) {
   const {
     handleSubmit,
     control,
+    reset,
     formState: { errors },
   } = useForm<formData>({
     defaultValues: {
       amount: Number(0).toFixed(2),
     },
   });
+
+  const handleOnClose = () => {
+    if (onClose) {
+      onClose({}, 'backdropClick');
+    }
+
+    reset();
+  };
 
   const onSubmit = () => {
     if (onClose) {
@@ -86,12 +95,14 @@ export function CreateInvoiceDialog(props: DialogProps) {
     <Dialog
       fullScreen
       open={open}
-      onClose={onClose}
+      onClose={handleOnClose}
       TransitionComponent={Transition}
     >
       <IconButton
         size="large"
-        onClick={onClose as MouseEventHandler<HTMLButtonElement> | undefined}
+        onClick={
+          handleOnClose as MouseEventHandler<HTMLButtonElement> | undefined
+        }
         sx={{
           position: 'absolute',
           right: { md: 24, sm: 32, xs: 24 },
