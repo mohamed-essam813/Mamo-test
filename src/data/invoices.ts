@@ -1,0 +1,247 @@
+import { PaletteColor, TypeText } from '@mui/material';
+import { invert } from 'lodash-es';
+import { theme } from '../theme';
+
+export enum InvoiceStatus {
+  outstanding = 0,
+  paid = 1,
+  cancelled = 2,
+}
+
+export const InvoiceStatusesColors: Record<
+  InvoiceStatus,
+  PaletteColor | TypeText
+> = {
+  [InvoiceStatus.outstanding]: theme.palette.primary,
+  [InvoiceStatus.paid]: theme.palette.success,
+  [InvoiceStatus.cancelled]: theme.palette.text,
+};
+
+export const InvoiceStatusLocale = invert(InvoiceStatus);
+
+export const invoices = [
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.outstanding,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.outstanding,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.outstanding,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.outstanding,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.outstanding,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.cancelled,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.cancelled,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.paid,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.paid,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.paid,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.paid,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.paid,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.paid,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.paid,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.paid,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.paid,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.paid,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.paid,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.paid,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.paid,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.paid,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.paid,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.paid,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.paid,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.paid,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.paid,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.paid,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.paid,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.paid,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.paid,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.paid,
+    createdAt: '25/04/2021',
+  },
+  {
+    id: '4574232-0001',
+    customerName: 'Asma Alyamani',
+    amount: 150.0,
+    status: InvoiceStatus.paid,
+    createdAt: '25/04/2021',
+  },
+];
